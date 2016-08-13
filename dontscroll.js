@@ -1,5 +1,3 @@
-window.onscroll = function() {
-  if (window.location.pathname == '/') {
-    window.open('about:blank', '_self').close()
-  }
+if (window.location.pathname == '/') {
+  window.location = 'https://www.messenger.com';
 }
